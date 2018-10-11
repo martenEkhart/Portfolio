@@ -1,0 +1,357 @@
+html body {
+    margin: 0;
+    padding: 0;
+    font-family: questrial, ars-maquette-web, Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 44px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.514);
+}
+
+h2 {
+    text-align: center;
+    margin-top: 1cm;
+    font-size: 28px;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;;
+    font-size: 22px;
+}
+
+/* Navigatie Bar */
+
+.navigatie {
+  width:49%;
+  float:left;
+  border: 0.009px solid rgba(247, 241, 241, 0.164);
+}
+
+.navigatie-balk {
+  width: 200px;
+  height: 140px;
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+  
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #1995AD;
+  position: fixed;
+  height: 140px;
+  overflow: auto;
+  border-radius: 25%;
+  box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.253);
+
+}
+
+.kleur {
+  color:white;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 0.1px 0.1px;
+  text-decoration: none;
+  
+}
+
+li a.active {
+  background-color: rgba(151, 173, 190, 0.800);
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+
+
+
+
+/* mijn hoofd css */
+
+.hoofd {
+    height:500px;
+    width: 100%;
+    background-image: url("stoel.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    float:top;
+  }
+
+  .welkom {
+      height: 100px;
+      width: 86%;
+      margin-top: 50px;
+      float: left;
+      color:white;
+  }
+
+  /* mijn introductie css */
+ 
+  .ik {
+    height:800px;
+    width: 100%;
+    background-attachment: fixed;
+    float:right;
+  }
+
+  .ik-text {
+    height:500px;
+    width: 100%;
+  } 
+
+  .ik-foto {
+    height:150px;
+    width: 175px;
+    float:top;
+    border-radius: 100%;
+    margin-left: 45%; 
+    margin-top: 3cm;
+   
+  }
+
+  .marten-foto {
+    height: 150px; 
+    width: 175px;
+    border-radius: 100%;
+    float:top;
+
+}
+
+.linkedIn {
+  /* color: rgb(3, 5, 70);  */
+  font-size: 28px;
+  margin-left: 5px;
+  text-decoration: none;
+}
+/* Mijn skills css */
+  
+.skills-achtergrond {
+    height:800px;
+    width: 100%;
+    background-color: rgba(151, 173, 190, 0.800);
+    background-attachment: fixed;
+    float:left;
+  }
+
+  .container-skill {
+    height: 500px;
+    width: 28%;
+    /* background-color: rgba(100, 100, 100, 0.452); */
+    float:left;
+    margin-top:85px;
+    margin-bottom: 55px;
+    margin-left: 65px;
+    border-right:4px;
+    border-color:white;
+  }
+  
+  .container-taal {
+    width: 90%;
+    background-color: rgba(100, 100, 100, 0.452);
+    margin:6px;
+  }
+  
+  .skills {
+    text-align: right;
+    padding: 10px;
+    color: white;
+  }
+  
+  .html {width: 90%; background-color: #4CAF50;}
+  .css {width: 70%; background-color: #2196F3;}
+  .js {width: 55%; background-color: #f44336;}
+  .php {width: 50%; background-color: #bde01f;}
+
+
+  .lijst-hobby {
+    font-size: 22px;
+    margin-left: 3px;
+  }
+
+/* Mijn projecten css */
+ 
+.project {
+    height:820px;
+    width: 100%;
+    float:right;
+    /* background-color: rgba(239, 243, 247, 0.801); */
+  }
+
+  .project1 {
+    height: 500px;
+    width: 46%;
+    float:left;
+    margin:16px;
+    margin-top: 4cm;
+  }
+
+  /* Mijn footer css */
+
+  .footer {
+    height: 400px;
+    width: 100%;
+    float:right;
+     background-image: url("black.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .footer-social {
+    float:right;
+    margin-top: 40px;
+    margin-right:40px;
+  }
+
+  .footer-link {
+
+    height: 100px;
+    width: 100%;
+    margin-top: 200px;
+  }
+
+
+  /* Dit is mijn contact formulier */
+  .index2 { 
+    background-image: url("black.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .contact {
+    height: 75px;
+    width: 100%;
+  }
+
+  .phpform {
+    text-align: center;
+    font-size: 22px;
+    color:whitesmoke;
+  }
+  
+  .phpform2 {
+    font-size: 22px;
+  }
+
+.home {
+    height:250px;
+    width: 250px;
+    float: right;
+    margin-right: 80px;
+    margin-top: 80px;
+}
+
+.home-button {
+    font-size: 46px;
+    color:whitesmoke;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.514); 
+   
+}
+
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width:800px) {
+  .navigatie-balk {
+       height:100px;
+       margin-top: 0.0001px;
+       float: left;
+   }
+
+   html body {
+    margin: 0;
+    padding: 0;
+    font-family: questrial, ars-maquette-web, Arial, sans-serif;
+  }
+
+  
+  .navigatie {
+  width:24.26%;
+  float:left;
+  border: 0.1px solid rgb(247, 241, 241);
+ }
+
+
+ 
+   ul {
+    height:57px;
+    width: 288px;
+    border-radius: 1%
+    }
+
+    .ik {
+        height: 800px;
+    }
+    
+    .ik-text {
+        max-width: 100%;
+        float:left;
+        margin-left: 1px; 
+        margin-top: 1px;    
+    }
+
+    p {
+        font-size:6vw;
+    }
+
+    .ik-foto {
+        float:top;
+        margin-left: 30px; 
+        margin-top: 1px;
+    }
+   
+    .marten-foto {     
+        float:top;
+        margin-left: 30px; 
+        margin-top: 1px;
+    }
+
+    .skills-achtergrond {
+      height: 1900px;
+    }
+
+    .container-skill
+    {
+        width: 100%;
+        float:left;
+        margin-left: 1px; 
+        margin-top: 1px;    
+    }
+
+    .project {
+      width: 100%;
+      height: 1250px;
+      float:left;
+      margin-left: 1px; 
+      margin-top: 1px; 
+      
+    }
+
+   .project1 {
+    border-right: none;
+    width: 300px;
+    float:left;
+    margin-left: 1px; 
+    margin-top: 1px;
+   }
+
+   h1 {
+    font-size:10vw;
+   }
+
+  
+}
